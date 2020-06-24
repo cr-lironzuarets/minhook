@@ -10,6 +10,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinHook", "MinHook.vcxproj"
 		{F142A341-5EE0-442D-A15F-98AE9B48DBAE} = {F142A341-5EE0-442D-A15F-98AE9B48DBAE}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileReader", "..\FileReader\FileReader.vcxproj", "{C9F21A21-D705-483A-B89D-057B584864CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileReaderLib", "FileReaderLib\FileReaderLib.vcxproj", "{8F004C4F-76F9-4106-8952-FD5446C476F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -34,8 +38,27 @@ Global
 		{027FAC75-3FDB-4044-8DD0-BC297BD4C461}.Release|Win32.Build.0 = Release|Win32
 		{027FAC75-3FDB-4044-8DD0-BC297BD4C461}.Release|x64.ActiveCfg = Release|x64
 		{027FAC75-3FDB-4044-8DD0-BC297BD4C461}.Release|x64.Build.0 = Release|x64
+		{C9F21A21-D705-483A-B89D-057B584864CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9F21A21-D705-483A-B89D-057B584864CE}.Debug|Win32.Build.0 = Debug|Win32
+		{C9F21A21-D705-483A-B89D-057B584864CE}.Debug|x64.ActiveCfg = Debug|x64
+		{C9F21A21-D705-483A-B89D-057B584864CE}.Debug|x64.Build.0 = Debug|x64
+		{C9F21A21-D705-483A-B89D-057B584864CE}.Release|Win32.ActiveCfg = Release|Win32
+		{C9F21A21-D705-483A-B89D-057B584864CE}.Release|Win32.Build.0 = Release|Win32
+		{C9F21A21-D705-483A-B89D-057B584864CE}.Release|x64.ActiveCfg = Release|x64
+		{C9F21A21-D705-483A-B89D-057B584864CE}.Release|x64.Build.0 = Release|x64
+		{8F004C4F-76F9-4106-8952-FD5446C476F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F004C4F-76F9-4106-8952-FD5446C476F2}.Debug|Win32.Build.0 = Debug|Win32
+		{8F004C4F-76F9-4106-8952-FD5446C476F2}.Debug|x64.ActiveCfg = Debug|x64
+		{8F004C4F-76F9-4106-8952-FD5446C476F2}.Debug|x64.Build.0 = Debug|x64
+		{8F004C4F-76F9-4106-8952-FD5446C476F2}.Release|Win32.ActiveCfg = Release|Win32
+		{8F004C4F-76F9-4106-8952-FD5446C476F2}.Release|Win32.Build.0 = Release|Win32
+		{8F004C4F-76F9-4106-8952-FD5446C476F2}.Release|x64.ActiveCfg = Release|x64
+		{8F004C4F-76F9-4106-8952-FD5446C476F2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EBA1CB5-7C5B-4841-8060-07D2F33AA932}
 	EndGlobalSection
 EndGlobal
